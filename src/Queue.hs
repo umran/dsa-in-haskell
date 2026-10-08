@@ -1,12 +1,12 @@
 module Queue
-  ( Queue
-  , empty
-  , enqueue
-  , dequeue
-  , peek
-  , isEmpty
-  , size
-  ) where
+(   Queue
+,   empty
+,   enqueue
+,   dequeue
+,   peek
+,   isEmpty
+,   size
+) where
 
 data Queue a
     = Queue [a] [a]
