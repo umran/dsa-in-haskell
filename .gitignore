@@ -1,0 +1,21 @@
+# Cabal build artifacts
+dist/
+dist-newstyle/
+
+# GHC build artifacts
+*.hi
+*.o
+*.dyn_hi
+*.dyn_o
+*.p_hi
+*.p_o
+
+# Local GHC environment files
+.ghc.environment.*
+
+# Machine/local Cabal overrides
+cabal.project.local
+cabal.project.local~
+
+# macOS
+.DS_Store
