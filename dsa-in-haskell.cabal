@@ -57,7 +57,7 @@ library
         Stack
         Queue
         BST
-        IndexedBuffer
+        Array.Immutable
         MinHeap
     
     build-depends:
