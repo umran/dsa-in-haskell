@@ -63,7 +63,8 @@ library
     
     build-depends:
         base,
-        vector
+        vector,
+        primitive
     
     default-language: GHC2021
 
