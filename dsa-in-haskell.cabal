@@ -58,6 +58,7 @@ library
         Queue
         BST
         Array.Immutable
+        Array.Mutable
         MinHeap
     
     build-depends:
